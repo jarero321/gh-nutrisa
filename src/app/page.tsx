@@ -1,8 +1,15 @@
-import Image from 'next/image';
-import { Inter } from '@next/font/google';
+import { Raleway } from '@next/font/google';
 
-const inter = Inter({ subsets: ['latin'] });
+const raleway = Raleway({
+  weight: ['400', '700', '900'],
+  style: ['normal', 'italic'],
+  subsets: ['latin'],
+});
 
 export default function Home() {
-  return <main></main>;
+  return (
+    <>
+      <main>hola putita</main>
+    </>
+  );
 }
