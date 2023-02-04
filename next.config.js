@@ -14,10 +14,7 @@ const nextConfig = {
   },
   images: {
     domains: ['s3-eu-west-1.amazonaws.com'],
-  },
-  fontLoaders: [
-    { loader: "@next/font/google", options: { subsets: ["latin"] } },
-  ],
+  }
 }
 
 module.exports = nextConfig
